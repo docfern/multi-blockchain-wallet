@@ -16,7 +16,6 @@ Indeed, we have to develop and integrate the script wallet.py at backend with ou
 <br>
 Once we integrate this "universal" wallet, we can use it to manage billions of addresses across 300+ coins, and it will give us serious edge against the competition.<br>
 <br>
-
 In this assignment, we will only need to get 2 coins working: Ethereum and Bitcoin Testnet. Ethereum keys are the same format on any network, so the Ethereum keys should work with your custom networks or testnets.
 
 ### Dependencies
@@ -30,10 +29,7 @@ In this assignment, we will only need to get 2 coins working: Ethereum and Bitco
 
 - Create a project directory called wallet and cd into it.
 - Clone the hd-wallet-derive tool into this folder and install it using the instructions on its README.md.
-- Create a symlink called derive for the hd-wallet-derive/hd-wallet-derive.php script into the top level project directory like so: ln -s hd-wallet-derive/hd-wallet-derive.php derive<br>
-
-This will clean up the command needed to run the script in our code, as we can call ./derive instead of ./hd-wallet-derive/hd-wallet-derive.php.
-
+- Create a symlink called derive for the hd-wallet-derive/hd-wallet-derive.php script into the top level project directory like so: ln -s hd-wallet-derive/hd-wallet-derive.php derive. This will clean up the command needed to run the script in our code, as we can call ./derive instead of ./hd-wallet-derive/hd-wallet-derive.php.
 - Test that you can run the ./derive script properly, use one of the examples on the repo's README.md.
 
 ### NOTE: If one get an error running ./derive, as it can happen on windows machine then use: php ./hd-wallet-derive/hd-wallet-derive.php.
@@ -68,7 +64,7 @@ Your directory tree should look something like this:
 <br>
 #### Confirmation of Executed Transaction
 
-![POA](https://github.com/docfern/multi-blockchain-wallet/blob/main/wallet/screenshots/eth_trans_confirm.jpg)
+![POA](https://github.com/docfern/multi-blockchain-wallet/blob/main/wallet/screenshots/bit_confirm.jpg)
 
 ### ETH transaction - using local private blockchain
 ```eth_acc = priv_key_to_account(ETH,eth_PrivateKey) ```
