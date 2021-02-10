@@ -1,20 +1,21 @@
 # multi-blockchain-wallet
-PIC:
-Image(filename = PATH + "change_network.jpg", width=500, height=500)
 
-
-Instruction: step by step
-New startup market race - initial requirement
-Main focus of a newly founded company is to build a portfolio management system (PMS) that supports both, traditional assets (like gold, silver, stocks, etc) and currently very hot topic - crypto-assets!!! But, as there are so many coins out there, our task to understand how HD wallets work, and to build out a system that can create them.
-
-Race to the market: Let the games begin !!!
-Unfortunately, there aren't as many tools available in Python for this sort of thing, yet.
-
-Thankfully, there is a command line tool, hd-wallet-derive that supports not only BIP32, BIP39, and BIP44, but also supports non-standard derivation paths for the most popular wallets out there today!
-
-Indeed, we have to develop and integrate the script wallet.py at backend with our dearest old friend, Python.
-
-Once we integrate this "universal" wallet, we can use it to manage billions of addresses across 300+ coins, and it will give us serious edge against the competition.
+![POA](https://github.com/docfern/multi-blockchain-wallet/blob/main/wallet/screenshots/newtons_coin_cradle.jpg)
+<br>
+<br>
+## Instruction: step by step
+### New startup market race - initial requirement
+Main focus of a newly founded company is to build a portfolio management system (PMS) that supports both, traditional assets (like gold, silver, stocks, etc) and currently very hot topic - crypto-assets!!! But, as there are so many coins out there, our task to understand how HD wallets work, and to build out a system that can create them.<br>
+<br>
+### Race to the market: Let the games begin !!!
+Unfortunately, there aren't as many tools available in Python for this sort of thing, yet.<br>
+<br>
+Thankfully, there is a command line tool, hd-wallet-derive that supports not only BIP32, BIP39, and BIP44, but also supports non-standard derivation paths for the most popular wallets out there today!<br>
+<br>
+Indeed, we have to develop and integrate the script wallet.py at backend with our dearest old friend, Python.<br>
+<br>
+Once we integrate this "universal" wallet, we can use it to manage billions of addresses across 300+ coins, and it will give us serious edge against the competition.<br>
+<br>
 
 In this assignment, we will only need to get 2 coins working: Ethereum and Bitcoin Testnet. Ethereum keys are the same format on any network, so the Ethereum keys should work with your custom networks or testnets.
 
@@ -45,17 +46,17 @@ Create a file called wallet.py -- this will be your universal wallet script.
 Your directory tree should look something like this:
 
 PIC:
-
-
-
-
-Setup constants file to manage coins
+![POA](https://github.com/docfern/multi-blockchain-wallet/blob/main/wallet/screenshots/tree.jpg)
+<br>
+<br>
+### Setup constants file to manage coins
 In a separate file, constants.py, set the following constants:
 
-BTC = 'btc'
-ETH = 'eth'
-BTCTEST = 'btc-test'
-In wallet.py, import all constants: from constants import *
+-- BTC = 'btc'
+-- ETH = 'eth'
+-- BTCTEST = 'btc-test'
+In wallet.py, import all constants: from constants import *<br>
+<br>
 
 Use these anytime you reference these strings, both in function calls, and in setting object keys.
 
@@ -70,7 +71,7 @@ When done properly, the final object should look something like this (there are 
 Accounts used in the project are marked for BTC Test and ETH 
 
 PIC:
-
+![POA](https://github.com/docfern/multi-blockchain-wallet/blob/main/wallet/screenshots/wallet_object.jpg)
 Executing test transactions by calling the functions from wallet.py
 
 BTCTest transaction
@@ -79,7 +80,7 @@ BTCTest transaction
 Confirmation of Executed Transaction
 
 PIC:
-
+![POA](https://github.com/docfern/multi-blockchain-wallet/blob/main/wallet/screenshots/eth_trans_confirm.jpg)
 
 ETH transaction - using local private blockchain
 ```eth_acc = priv_key_to_account(ETH,eth_PrivateKey) ```
@@ -88,3 +89,4 @@ ETH transaction - using local private blockchain
 Confirmation of Executed Transaction
 
 PIC:
+![POA](https://github.com/docfern/multi-blockchain-wallet/blob/main/wallet/screenshots/eth_trans_config.jpg)
