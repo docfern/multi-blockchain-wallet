@@ -3,20 +3,18 @@
 ![POA](https://github.com/docfern/multi-blockchain-wallet/blob/main/wallet/screenshots/newtons_coin_cradle.jpg)
 <br>
 <br>
-## Instruction: step by step
-### New startup market race - initial requirement
-Main focus of a newly founded company is to build a portfolio management system (PMS) that supports both, traditional assets (like gold, silver, stocks, etc) and currently very hot topic - crypto-assets!!! But, as there are so many coins out there, our task to understand how HD wallets work, and to build out a system that can create them.<br>
-<br>
-### Race to the market: Let the games begin !!!
-Unfortunately, there aren't as many tools available in Python for this sort of thing, yet.<br>
+## Instruction: Step by Step
+### Initial Requirement
+Our new startup company will focus on how to build a portfolio management system (PMS) that supports both, traditional assets (like gold, silver, stocks, etc.) and apparently cryptocurrency assets. The irony is that there are so many coins in the market, hence, our task to understand how HD wallets work, and to build the system step by step.<br>
 
-Thankfully, there is a command line tool, hd-wallet-derive that supports not only BIP32, BIP39, and BIP44, but also supports non-standard derivation paths for the most popular wallets out there today!<br>
+### Race to capture market
+There aren't as many tools available in Python for this sort this out. However, there is a command line tool using hd-wallet-derive that supports not only BIP32, BIP39, and BIP44, but also supports non-standard derivation paths for the most popular wallets out there today!<br>
 
 Indeed, we have to develop and integrate the script wallet.py at backend with our dearest old friend, Python.<br>
-<br>
+
 Once we integrate this "universal" wallet, we can use it to manage billions of addresses across 300+ coins, and it will give us serious edge against the competition.<br>
-<br>
-In this assignment, we will only need to get 2 coins working: Ethereum and Bitcoin Testnet. Ethereum keys are the same format on any network, so the Ethereum keys should work with your custom networks or testnets.
+
+In this assignment, we will only need to get 2 coins working: Ethereum and Bitcoin Testnet. Ethereum keys are the same format on any network, so the Ethereum keys should work with your custom networks or testnets.<br>
 
 ### Dependencies
 
