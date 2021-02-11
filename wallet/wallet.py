@@ -16,8 +16,6 @@ from web3.middleware import geth_poa_middleware
 
 mnemonic = os.getenv('mnemonic')
 
-mnemonic = os.getenv('mnemonic')
-
 def derive_wallets(coin):
     command = f'./derive -g --mnemonic="{mnemonic}" --cols=path,address,privkey,pubkey --format=json --coin="{coin}" --numderive= 2'
     p = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
