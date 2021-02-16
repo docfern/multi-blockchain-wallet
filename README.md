@@ -55,6 +55,7 @@ Your directory tree should look something like this:
 - Accounts used in the project are marked for BTC Test and ETH<br> 
 <br>
 ![POA](https://github.com/docfern/multi-blockchain-wallet/blob/main/wallet/screenshots/wallet_object.jpg)
+![POA](https://github.com/docfern/multi-blockchain-wallet/blob/main/wallet/screenshots/Faucet%20Approved.jpg)
 
 ### Executing test transactions by calling the functions from wallet.py
 #### BTCTest transaction
@@ -62,7 +63,7 @@ Your directory tree should look something like this:
 <br>
 #### Confirmation of Executed Transaction
 
-![POA](https://github.com/docfern/multi-blockchain-wallet/blob/main/wallet/screenshots/bit_confirm.jpg)
+![POA](https://github.com/docfern/multi-blockchain-wallet/blob/main/wallet/screenshots/btc_confirm.jpg)
 
 ### ETH transaction - using local private blockchain
 ```eth_acc = priv_key_to_account(ETH,eth_PrivateKey) ```
@@ -71,3 +72,5 @@ Your directory tree should look something like this:
 #### Confirmation of Executed Transaction
 
 ![POA](https://github.com/docfern/multi-blockchain-wallet/blob/main/wallet/screenshots/eth_trans_config.jpg)
+![POA](https://github.com/docfern/multi-blockchain-wallet/blob/main/wallet/screenshots/hd_wallet_eth.jpg)
+![POA](https://github.com/docfern/multi-blockchain-wallet/blob/main/wallet/screenshots/subprocess%20json.jpg)
